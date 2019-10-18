@@ -8,9 +8,17 @@ class UserController {
       return res.status(400).json({ error: 'Usuario ja cadastrado' });
     }
 
-    const user = await User.create(req.body);
+    const { id, name, email } = await User.create(req.body);
 
-    return res.json(user);
+    return res.json({
+      id,
+      name,
+      email,
+    });
+  }
+
+  async update(req, res) {
+    return res.json({ ok: true });
   }
 }
 
