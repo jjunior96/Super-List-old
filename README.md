@@ -6,7 +6,7 @@
 - [x] Alterar usuario
 - [x] Criar produto
 - [x] Conexão com o Postgres
-- [ ] Criar lista 
+- [x] Criar lista 
 - [ ] Remover lista
 - [ ] Alterar lista
 - [ ] Remover produto da lista
