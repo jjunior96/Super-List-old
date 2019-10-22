@@ -16,6 +16,10 @@ class Product extends Model {
       }
     );
   }
+
+  static associate(models) {
+    this.belongsTo(models.List, { foreignKey: 'list_id', as: 'list' });
+  }
 }
 
 export default Product;

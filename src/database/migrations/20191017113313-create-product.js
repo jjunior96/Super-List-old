@@ -8,6 +8,14 @@ module.exports = {
         primaryKey: true,
       },
 
+      // list_id: {
+      //   type: Sequelize.INTEGER,
+      //   allowNull: false,
+      //   references: { model: 'list', key: 'id' },
+      //   onUpdate: 'CASCADE',
+      //   onDelete: 'CASCADE',
+      // },
+
       name: {
         type: Sequelize.STRING,
         allowNull: false,
